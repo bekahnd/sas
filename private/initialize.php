@@ -1,4 +1,3 @@
-<?php phpinfo(); ?>
 <?php
 
   // Assign file paths to PHP constants
