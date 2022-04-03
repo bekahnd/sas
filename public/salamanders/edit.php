@@ -18,8 +18,8 @@ require_once(SHARED_PATH . '/salamander-header.php');
 ?>
 
 <div id="content">
-  <a class="back-link" href="<?php echo url_for('/salamander/index.php'); ?>">&laquo; Back to List</a>
-
+  <a class="back-link" href="<?php echo url_for('/salamanders/index.php'); ?>">&laquo; Back to Lists</a>
+  
   <div class="salamander edit">
     <h1>Edit salamander</h1>
 
