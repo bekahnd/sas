@@ -17,3 +17,4 @@ $connection = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname);
 
 //5. Close database connection
 mysqli_close($connection);
+?>
