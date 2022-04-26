@@ -25,7 +25,15 @@ if($test == '404') {
     <form action="<?php echo url_for('/salamanders/create.php'); ?>" method="post">
       <dl>
         <dt>Name</dt>
-        <dd><input type="text" name="salamanderName" value=""></dd>
+        <dd><input type="text" name="name" value=""></dd>
+      </dl>
+      <dl>
+        <dt>Habitat</dt>
+        <dd><input type="text" name="habitat" value=""></dd>
+      </dl>
+      <dl>
+        <dt>Description</dt>
+        <dd><input type="text" name="description" value=""></dd>
       </dl>
       <div class="operations">
         <input type="submit" value="Create Salamander">
