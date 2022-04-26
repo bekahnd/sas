@@ -3,11 +3,7 @@
 require_once('db_credentials.php');
 
 function db_connect() {
-  //$connection = mysqli_connect(DB_SERVER, DB_USER, DB_PASS, DB_NAME);
   $connection =new mysqli(DB_SERVER,DB_USER, DB_PASS,DB_NAME);
-  //mysqli_select_db(DB_NAME, $connection);
-  //var_dump($connection);
-  //exit();
   confirm_db_connect();
   return $connection;
 }
